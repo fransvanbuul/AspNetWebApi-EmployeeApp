@@ -1,0 +1,5 @@
+-exclude "**/*.js"
+-exclude "**/*.html"
+-exclude "**/*.ts"
+-exclude "**/*.min.js"
+-exclude "**/node_modules/**/*"
