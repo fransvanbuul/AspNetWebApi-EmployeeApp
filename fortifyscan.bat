@@ -1,10 +1,11 @@
 @echo off
 
 rem
-rem Fortify SCA Scan Script. Tested on Fortify SCA 20.1.0, running
+rem Fortify SCA Scan Script. Tested on Fortify SCA 20.1.0, and Fortify SCA 19.2.0, running
 rem on a Developer Command Prompt for VS 2019.
 rem
-rem Test run on Windows 2019 Server, 8 cores, 32 GB, general purpose SSD: < 7 minutes
+rem Test run on Windows 2019 Server, 8 cores, 32 GB, general purpose SSD:
+rem around 6 minutes 30 seconds, independent of SCA version.
 rem
 
 nuget restore
